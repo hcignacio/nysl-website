@@ -1,3 +1,8 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+}
+
 header {
     background-image: url(../images/design1_image1.jpg);
 }
@@ -5,30 +10,52 @@ header {
 header h1 {
     font-size: 4rem;
     height: 250px;
+    margin: 0px;
 }
 
-header img {
-    float: right;
-    height: 150px;
-    margin-right: 150px;
-    display: block;
+header div img {
+    height: 100px;
+    position: absolute;
+    top: 230px;
 }
 
 body nav {
     float: left;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
 }
 
 nav ul li {
-    margin: 70px 200px 70px 0px;
+    margin: 40px 70px 50px 0px;
 }
 
-header h2 {
-    font-size: 3rem;
-    text-align: center;
+.banner {
+    height: auto;
+}
+
+header div {
     background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+#title-page {
+    font-size: 2.5rem;
     color: white;
+    margin: 0px; 
+    margin-left: 400px;
+    margin-right: 200px; 
 }
 
 article {
-    margin-top: 100px;
+    float: left;
+    margin: 25px 0px 50px 0px;
+    width: 850px;
+}
+
+article p {
+    margin-left: 10px;
 }
