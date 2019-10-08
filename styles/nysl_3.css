@@ -1,13 +1,14 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     margin: 0rem;
-    height: 600px;
-    background-color: black;
+    height: 800px;
+    background-color: rgb(97, 97, 97);
     color: white
 }
 
 header {
     background-image: url(../images/design1_image1.jpg);
+    background-size: cover;
 }
 
 header h1 {
@@ -15,7 +16,7 @@ header h1 {
     text-align: center;
     height: 15rem;
     margin: 0rem;
-    color: yellow;
+    color: rgb(247, 247, 27);
 }
 
 /*
@@ -42,27 +43,23 @@ nav ul li {
     display: inline;
 }
 
-nav ul li a {
-    padding-right: 3rem;
-}
-
 .banner {
     height: 50px;
     
 }
 
 header div {
-    background-color: yellow;
+    background-color: rgb(247, 247, 27);
     display: flex;
 }
 
 a:link {
-    color: red;
+    color: rgb(255, 145, 2);
     text-decoration: none;
 }
 
 a:visited {
-    color: red;
+    color: rgb(255, 145, 2);
     text-decoration: none;
 }
 
@@ -92,9 +89,124 @@ header div img {
 article {
     float: left;
     margin-left: 5rem;
-    width: 850px;
+    width: 90%;
 }
 
-article p {
+article p{
     margin-left: -30px;
+}
+
+section {
+    margin: 3rem 0rem;
+}
+
+.title-rules {
+    text-align: center;
+    color: rgb(247, 247, 27);
+}
+
+.border {
+    border: 5px dashed rgb(255, 255, 129);
+    border-radius: 10px;
+}
+
+.main-section {
+    width: 100%;
+    height: 100%;
+}
+
+.titles {
+    text-align: center;
+}
+
+.main-section ul li{
+    list-style-type: square;
+}
+
+ol p {
+    margin-right: 5rem;
+}
+
+ul li {
+    margin-right: 5rem;
+}
+
+ol li {
+    margin: 1rem 5rem 1rem 0rem;
+}
+
+ol ul li {
+    margin-right: 5rem;
+}
+
+ul p {
+    margin-left: 2rem;
+    margin-right: 5rem;
+}
+
+#ol-square {
+    list-style-type: square;
+}
+
+.li-empty-circle {
+    list-style-type: circle !important;
+    margin-top: 1rem;
+}
+
+#li-outside {
+    list-style-type: none;
+}
+
+.item-content {
+    margin-left: 0px;
+}
+
+.list-letter {
+    list-style-type: lower-latin;
+}
+
+.main-item {
+    color: rgb(247, 247, 27);
+}
+
+table {
+  width: 100%;
+  padding: 2rem 0rem;
+}
+
+th {
+  text-align: start;
+}
+
+th, td {
+  padding: 0px 15px;
+}
+
+th:hover, td:hover {
+  background-color: rgb(255, 255, 129);
+  color: rgb(97, 97, 97);
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.centered {
+  text-align: center;
+}
+
+.border h4{
+  margin-left: 1rem;
+}
+
+.border p {
+  margin-left: 2rem;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
 }
