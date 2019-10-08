@@ -1,0 +1,100 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0rem;
+    height: 600px;
+    background-color: black;
+    color: white
+}
+
+header {
+    background-image: url(../images/design1_image1.jpg);
+}
+
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+    height: 15rem;
+    margin: 0rem;
+    color: yellow;
+}
+
+/*
+header div img {
+    height: 6rem;
+    position: relative;
+    top: -9rem;
+    left: -15rem;
+}
+*/
+
+body nav {
+    background-color: black
+}
+
+nav ul {
+    margin: 0px;
+    border: 1rem black solid;
+    border-bottom: 0.2rem white solid;
+    padding-bottom: 1rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    padding-right: 3rem;
+}
+
+.banner {
+    height: 50px;
+    
+}
+
+header div {
+    background-color: yellow;
+    display: flex;
+}
+
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: red;
+    text-decoration: none;
+}
+
+/*
+#title-page {
+    font-size: 2.5rem;
+    color: black;
+    margin: 0px; 
+    margin-left: 30rem;
+}
+*/
+
+#title-page {
+    font-size: 2.5rem;
+    color: black;
+    margin: 0px;
+    margin-left: 2rem;
+}
+
+header div img {
+    height: 6rem;
+    position: absolute;
+    top: 7rem;
+    right: 36rem;
+}
+
+article {
+    float: left;
+    margin-left: 5rem;
+    width: 850px;
+}
+
+article p {
+    margin-left: -30px;
+}
