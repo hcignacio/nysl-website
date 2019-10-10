@@ -62,14 +62,9 @@ a:visited {
   text-decoration: none;
 }
 
-/*
-#title-page {
-  font-size: 2.5rem;
-  color: black;
-  margin: 0px; 
-  margin-left: 30rem;
+a:hover {
+  color: rgb(94, 94, 94);
 }
-*/
 
 #title-page {
   font-size: 2rem;
@@ -180,7 +175,7 @@ table {
 }
 
 th, td {
-  padding: 0.5rem 2rem;
+  padding: 0rem 2rem;
 }
 
 th {
@@ -191,6 +186,7 @@ th {
 
 td:hover {
   background-color: rgb(255, 255, 129);
+  border-radius: 3rem;
   color: rgb(97, 97, 97);
 }
 
@@ -340,8 +336,30 @@ input:hover {
   color: black;
 }
 
+#game-location-table {
+  text-align: center;
+} 
+
+#game-location-table-title {
+  text-align: center;
+  padding: 0rem;
+  border-radius: 3rem;
+  background-color: rgb(255, 255, 129);
+  color: rgb(97, 97, 97);
+}
+
 iframe {
-  width: 80%;
+  width: 100%;
   height: 20rem;
-  border: 0; 
+  border-radius: 3rem;
+  margin: 0rem;
+}
+
+#td-iframe {
+  padding-top: 3rem;
+}
+
+#td-iframe:hover {
+  background-color:rgb(97, 97, 97);
+  border-radius: 3rem;
 }
