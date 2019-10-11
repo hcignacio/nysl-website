@@ -53,7 +53,7 @@
   <div>
 
     <article>
-      <form action="./show-data.html" method="GET">
+      <form action="show-data.html" method="GET">
 
         <section class="border">
           <div class="form-item-3">
@@ -66,10 +66,10 @@
             <input type="text" name="last_name" placeholder="insert last name" required>
           </div>
 
-          
+
           <div class="form-item-3">
             <h3>Birth Date:</h3>
-            <input type="date" name="birth_date" placeholder="insert birth date" required style="width: 162px; height: 26.667px">
+            <input id="birth-date" type="date" name="birth_date" placeholder="insert birth date" required>
           </div>
         </section>
 
@@ -90,7 +90,7 @@
             <input type="number" name="zip_code" placeholder="insert zip code">
           </div>
         </section>
-        
+
         <section class="border">
 
           <div class="form-item-3">
@@ -102,7 +102,7 @@
             <h3>Contact Phone:</h3>
             <input type="tel" name="contact_phone" placeholder="insert phone">
           </div>
-          
+
           <div class="form-item-3">
             <h3>Contact Email:</h3>
             <input type="email" name="contact_email" placeholder="insert email">
@@ -130,7 +130,7 @@
             <option value="south_elementary">South Elementary</option>
           </select>
         </section>
-          
+
         <section class="border">
           <h3 class="float-left" id="grade">Grade</h3>
 
@@ -171,58 +171,64 @@
         </section>
 
         <section class="border">
-            <h3 id="uniform">Uniform</h3>
+          <h3 id="uniform">Uniform</h3>
 
-            <div class="uniform-options">
-              <input type="radio" name="uniform" value="pre-school"> Already Have a Uniform
+          <div class="uniform-options">
+            <input type="radio" name="uniform" value="already-have-a-uniform">Already Have a Uniform
 
-              <h4>Jersey Size:</h4>
+            <h4>Jersey Size:</h4>
 
-              <input type="radio" name="jersey-size" value="1st">Youth Small
-              <input type="radio"  name="jersey-size" value="2nd">Youth Medium
-              <input type="radio"  name="jersey-size" value="3rd">Youth Large
-              <input type="radio"  name="jersey-size" value="1st">Small
-              <input type="radio"  name="jersey-size" value="2nd">Medium
-              <input type="radio"  name="jersey-size" value="3rd">Large
-              <input type="radio"  name="jersey-size" value="3rd">Extra Large
-            
-              <h4>Shorts Size:</h4>
+            <input type="radio" name="jersey-size" value="youth-small">Youth Small
+            <input type="radio" name="jersey-size" value="youth-medium">Youth Medium
+            <input type="radio" name="jersey-size" value="youth_large">Youth Large
+            <input type="radio" name="jersey-size" value="small">Small
+            <input type="radio" name="jersey-size" value="medium">Medium
+            <input type="radio" name="jersey-size" value="large">Large
+            <input type="radio" name="jersey-size" value="extra-large">Extra Large
 
-              <input type="radio"  name="shorts-size" value="1st">Youth Small
-              <input type="radio"  name="shorts-size" value="2nd">Youth Medium
-              <input type="radio"  name="shorts-size" value="3rd">Youth Large
-              <input type="radio"  name="shorts-size" value="1st">Small
-              <input type="radio"  name="shorts-size" value="2nd">Medium
-              <input type="radio"  name="shorts-size" value="3rd">Large
-              <input type="radio"  name="shorts-size" value="3rd">Extra Large
-            </div>
+            <h4>Shorts Size:</h4>
+
+            <input type="radio" name="shorts-size" value="youth-small">Youth Small
+            <input type="radio" name="shorts-size" value="youth-medium">Youth Medium
+            <input type="radio" name="shorts-size" value="youth_large">Youth Large
+            <input type="radio" name="shorts-size" value="small">Small
+            <input type="radio" name="shorts-size" value="medium">Medium
+            <input type="radio" name="shorts-size" value="large">Large
+            <input type="radio" name="shorts-size" value="extra-large">Extra Large
+          </div>
 
         </section>
 
-        <section class="border">
+        <section class="border" id="section-permission">
           <h3 id="permission">Permission to Play</h3>
           <p class="permission-p">
-          I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth
-          Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League”
-          accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their
-          employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or
-          on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL
-          sponsored activities, which transportation.
+            I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the
+            rules of the Northside Youth
+            Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in
+            consideration for the “League”
+            accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or
+            otherwise indemnify NYSL, their
+            employees and associated personnel and volunteers, including the facilities used for practices and games,
+            against any claim by or
+            on behalf of the registrant as a result of the registrant’s participation in the program and/or being
+            transported to or from NYSL
+            sponsored activities, which transportation.
           </p>
           <p class="permission-p">
-          By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the
-          cancellation policy and agree to its terms.
+            By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge
+            that I have read the
+            cancellation policy and agree to its terms.
           </p>
 
-          <P>Parent/Guardian Signature:</P>
-          <p id="signature"></p>
+          <P class="float-left">Parent/Guardian Signature:</P>
+          <input class="float-left" id="input-signature" type="text" name="signature" placeholder="" required>
 
-          <P class="date-title">Date:</P>
-          <p id="date"></p>
+          <P id="p-date">Date:</P>
+          <input id="input-date" type="date" name="registration_date" placeholder="" required>
 
           <input id="submit" type="submit" value="Submit">
         </section>
-      </form> 
+      </form>
 
     </article>
   </div>

@@ -1,41 +1,41 @@
 body {
-  font-family: 'Be Vietnam', sans-serif;
-  margin: 0rem;
-  height: 800px;
+  font-family     : 'Be Vietnam', sans-serif;
+  margin          : 0rem;
+  height          : 600px;
   background-color: rgb(97, 97, 97);
-  color: white
+  color           : white
 }
 
 header {
   background-image: url(../images/design1_image1.jpg);
-  background-size: cover;
+  background-size : cover;
 }
 
 header h1 {
-  font-size: 4rem;
+  font-size : 4rem;
   text-align: center;
-  height: 15rem;
-  margin: 0rem;
-  color: rgba(255, 145, 2, 0.794);
+  height    : 15rem;
+  margin    : 0rem;
+  color     : rgba(255, 145, 2, 0.794);
 }
 
 /*
 header div img {
-    height: 6rem;
+    height  : 6rem;
     position: relative;
-    top: -9rem;
-    left: -15rem;
+    top     : -9rem;
+    left    : -15rem;
 }
 */
 
 body nav {
-  background-color: black
+  background-color: black;
 }
 
 nav ul {
-  margin: 0px;
-  border: 1rem black solid;
-  border-bottom: 0.2rem white solid;
+  margin        : 0px;
+  border        : 1rem black solid;
+  border-bottom : 0.2rem white solid;
   padding-bottom: 1rem;
 }
 
@@ -49,16 +49,16 @@ nav ul li {
 
 header div {
   background-color: rgba(247, 247, 27, 0.562);
-  display: flex;
+  display         : flex;
 }
 
 a:link {
-  color: rgb(255, 145, 2);
+  color          : rgb(255, 145, 2);
   text-decoration: none;
 }
 
 a:visited {
-  color: rgb(255, 145, 2);
+  color          : rgb(255, 145, 2);
   text-decoration: none;
 }
 
@@ -67,26 +67,26 @@ a:hover {
 }
 
 #title-page {
-  font-size: 2rem;
-  color: black;
-  margin: 0rem;
+  font-size  : 2rem;
+  color      : black;
+  margin     : 0rem;
   margin-left: 2rem;
 }
 
 header div img {
-  height: 6rem;
+  height  : 6rem;
   position: absolute;
-  top: 13rem;
-  right: 47%;
+  top     : 13rem;
+  right   : 47%;
 }
 
 article {
-  float: left;
+  float      : left;
   margin-left: 5rem;
-  width: 90%;
+  width      : 90%;
 }
 
-article p{
+article p {
   margin-left: -30px;
 }
 
@@ -96,17 +96,17 @@ section {
 
 .title-rules {
   text-align: center;
-  color: rgb(247, 247, 27);
+  color     : rgb(247, 247, 27);
 }
 
 .border {
-  border: 5px dashed rgb(255, 255, 129);
+  border       : 5px dashed rgb(255, 255, 129);
   border-radius: 10px;
-  overflow: auto;
+  overflow     : auto;
 }
 
 .main-section {
-  width: 100%;
+  width : 100%;
   height: 100%;
 }
 
@@ -114,34 +114,34 @@ section {
   text-align: center;
 }
 
-.main-section ul li{
+.main-section ul li {
   list-style-type: square;
 }
 
 ol p {
   margin-right: 5rem;
-  text-align: justify;
+  text-align  : justify;
 }
 
 ul li {
   margin-right: 5rem;
-  text-align: justify;
+  text-align  : justify;
 }
 
 ol li {
-  margin: 1rem 5rem 1rem 0rem;
+  margin    : 1rem 5rem 1rem 0rem;
   text-align: justify;
 }
 
 ol ul li {
   margin-right: 5rem;
-  text-align: justify;
+  text-align  : justify;
 }
 
 ul p {
-  margin-left: 2rem;
+  margin-left : 2rem;
   margin-right: 5rem;
-  text-align: justify;
+  text-align  : justify;
 }
 
 #ol-square {
@@ -150,7 +150,7 @@ ul p {
 
 .li-empty-circle {
   list-style-type: circle !important;
-  margin-top: 1rem;
+  margin-top     : 1rem;
 }
 
 #li-outside {
@@ -170,24 +170,25 @@ ul p {
 }
 
 table {
-  width: 100%;
+  width  : 100%;
   padding: 2rem 0rem;
 }
 
-th, td {
+th,
+td {
   padding: 0rem 2rem;
 }
 
 th {
-  text-align: start;
+  text-align : start;
   padding-top: 2rem;
-  overflow: auto;
+  overflow   : auto;
 }
 
 td:hover {
   background-color: rgb(255, 255, 129);
-  border-radius: 3rem;
-  color: rgb(97, 97, 97);
+  border-radius   : 3rem;
+  color           : rgb(97, 97, 97);
 }
 
 .underlined {
@@ -198,7 +199,7 @@ td:hover {
   text-align: center;
 }
 
-.border h4{
+.border h4 {
   margin-left: 1rem;
 }
 
@@ -206,8 +207,8 @@ td:hover {
   margin-left: 2rem;
 }
 
-.border h6{
-  font-size: 0.8rem;
+.border h6 {
+  font-size : 0.8rem;
   font-style: italic;
 }
 
@@ -220,32 +221,37 @@ td:hover {
 }
 
 input {
-  border: 0.01rem solid rgb(255, 255, 129);
+  border       : 0.01rem solid rgb(255, 255, 129);
   border-radius: 10px;
-  overflow: auto;
-  text-align: center;
-  color: rgba(29, 29, 29, 0.657)
+  overflow     : auto;
+  text-align   : center;
+  color        : rgba(29, 29, 29, 0.657)
 }
 
-select{  
-  border: 0.01rem solid rgb(255, 255, 129);
+select {
+  border       : 0.01rem solid rgb(255, 255, 129);
   border-radius: 10px;
-  overflow: auto;
-  text-align: center;
-  color: rgb(0, 0, 0);
+  overflow     : auto;
+  text-align   : center;
+  color        : rgb(0, 0, 0);
 }
 
 .form-item-2 {
-  float: left;
-  margin-left: 25%;
-  margin-top: 1%;
+  float        : left;
+  margin-left  : 25%;
+  margin-top   : 1%;
   margin-bottom: 2%;
 }
 
 .form-item-3 {
-  float: left;
-  margin-left: 13%;
+  float        : left;
+  margin-left  : 13%;
   margin-bottom: 2%;
+}
+
+#birth-date {
+  width : 162px;
+  height: 26.667px;
 }
 
 #grade {
@@ -253,60 +259,64 @@ select{
 }
 
 .grade-options {
-  float: left;
+  float : left;
   margin: 1.4rem 0rem 1.4rem 5.4rem;
 }
 
 .positions-1 {
-  float: left;
+  float : left;
   margin: 1.4rem 0rem 1.4rem 5.4rem;
 }
 
 select option {
-  margin-top: 0.2rem;
-  margin-left: 2rem;
+  margin-top  : 0.2rem;
+  margin-left : 2rem;
   margin-right: 2rem;
-  float: left;
+  float       : left;
 }
 
 .multiple-select {
-  border: 0.01rem solid rgb(255, 255, 129);
+  border       : 0.01rem solid rgb(255, 255, 129);
   border-radius: 10px;
-  overflow: auto;
-  text-align: center;
-  color: rgb(0, 0, 0);
-  height: 1.3rem;
-  position: relative;
-  bottom: 1rem;
-  left: 30%;
+  overflow     : auto;
+  text-align   : center;
+  color        : rgb(0, 0, 0);
+  height       : 1.3rem;
+  position     : relative;
+  bottom       : 1rem;
+  left         : 30%;
 }
 
 #uniform {
-  margin-left: 8%;
+  margin-left  : 8%;
   margin-bottom: 0px;
 }
 
 .uniform-options {
-  float: left;
+  float : left;
   margin: 1.4rem 0rem 1.4rem 5.4rem;
 }
 
 #permission {
-  margin-left: 8%;
+  margin-left  : 8%;
   margin-bottom: 0px;
 }
 
+#section-permission {
+  height: 27rem;
+}
+
 .permission-p {
-  margin: 1rem 3rem;
+  margin    : 1rem 3rem;
   text-align: justify
 }
 
 #signature {
-  width: 73%;
+  width        : 73%;
   border-bottom: 0.01rem solid rgb(255, 255, 129);
-  position: relative;
-  left: 14rem;
-  top: -1rem;
+  position     : relative;
+  left         : 14rem;
+  top          : -1rem;
 }
 
 .date-title {
@@ -314,45 +324,45 @@ select option {
 }
 
 #date {
-  width: 18%;
+  width        : 18%;
   border-bottom: 0.05rem solid rgb(255, 255, 129);
-  position: relative;
-  left: 17rem;
-  top: -1rem;
+  position     : relative;
+  left         : 17rem;
+  top          : -1rem;
 }
 
 #submit {
-  float: right;
-  height: 2rem;
+  float   : right;
+  height  : 2rem;
   position: relative;
-  bottom: 3.9rem;
-  left: -4rem;
-  width: 32rem;
-  margin: 0px;
+  bottom  : -1.1rem;
+  left    : -4.1rem;
+  width   : 32rem;
+  margin  : 0px;
 }
 
 input:hover {
-  background-color: rgb(248, 248, 44);
-  color: black;
+  background-color: rgb(255, 255, 85);
+  color           : black;
 }
 
 #game-location-table {
   text-align: center;
-} 
+}
 
 #game-location-table-title {
-  text-align: center;
-  padding: 0rem;
-  border-radius: 3rem;
+  text-align      : center;
+  padding         : 0rem;
+  border-radius   : 3rem;
   background-color: rgb(255, 255, 129);
-  color: rgb(97, 97, 97);
+  color           : rgb(97, 97, 97);
 }
 
 iframe {
-  width: 100%;
-  height: 20rem;
+  width        : 100%;
+  height       : 20rem;
   border-radius: 3rem;
-  margin: 0rem;
+  margin       : 0rem;
 }
 
 #td-iframe {
@@ -360,6 +370,48 @@ iframe {
 }
 
 #td-iframe:hover {
-  background-color:rgb(97, 97, 97);
-  border-radius: 3rem;
+  background-color: rgb(97, 97, 97);
+  border-radius   : 3rem;
+}
+
+#input-signature {
+  position: relative;
+  top     : 1rem;
+  left    : 3rem;
+  width   : 48rem;
+}
+
+#p-date {
+  position: relative;
+  top     : 3.6rem;
+  left    : -50.5rem;
+}
+
+#input-date {
+  position: relative;
+  top     : 1rem;
+  left    : 3rem;
+}
+
+.div-footer {
+  position        : relative;
+  bottom          : 0rem;
+  height          : 3rem;
+  color           : black;
+  background-color: rgba(255, 255, 46, 0.801);
+  border-top      : 0.2rem solid black;
+  border-bottom   : 0.2rem solid black;
+  border-radius   : 10px;
+}
+
+.div-footer p {
+  position: relative;
+  left    : 2%;
+  bottom  : 11%
+}
+
+*:focus{
+  outline: none;
+  background-color: rgb(255, 255, 112);
+  color: rgb(97, 97, 97);
 }
